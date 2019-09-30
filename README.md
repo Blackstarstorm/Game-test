@@ -5,6 +5,4 @@ Video games are a part of citization some genres of gaming have become staples a
 
 Since there are so many game genres we will only be using some of the the most common genres of games. Forgive us if you felt we for got you.
 
-
-
 Enjoy the test!
