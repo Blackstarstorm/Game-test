@@ -11,7 +11,7 @@ h2{
 
 body{
   text-align: center;
-  background-image: url("https://cdn.dribbble.com/users/177498/screenshots/2663048/great-ball.jpg");
+  background-image: url("https://cdn.dribbble.com/users/177498/screenshots/2663048/great-ball.jpg"); 
   background-size:cover;
 } 
 
@@ -34,7 +34,13 @@ div{
   display: inline-block;
   width: 25%;
   text-align: center;
-}
+
+} 
+.pokemon-list{
+  overflow: auto;
+  height: 60vh;
+} 
+/* Find a way to have the pokemon list be scrollable  */
 @media screen and (max-width) {
 
 }

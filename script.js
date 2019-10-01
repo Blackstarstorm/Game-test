@@ -6,6 +6,7 @@ const input = document.querySelector("#types")
 
 
 let renderList = (types) => {
+  searchType.innerHTML = "<h2>Pokemon List</h2>"
   types.forEach((type) => {
     const typeOutput = document.createElement('div')
     typeOutput.innerHTML = `<h3>${type.pokemon.name}</h3><button id=${type.pokemon.name} class="more-info">Show Me</button>`;
@@ -25,14 +26,6 @@ let renderList = (types) => {
   })
 }
 
-// Have to get the learn more to include infomation with info listed below will probably need a for loop.
-//               console.log("Number: ", pokeID)
-//               console.log("Type 2: ", pokeType2);
-//               console.log("Image URI: ", imageURI);
-//           });
-
-// })
-// }
 const getData = async () => {
   const pokeType = input.value
   try {
@@ -46,6 +39,10 @@ const getData = async () => {
 }
 
 button.addEventListener("click", getData)
+
+window.onload = function () {
+
+}
 
 
 
