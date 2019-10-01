@@ -11,12 +11,35 @@
 </head>
 
 <body>
-  <h1>What's That Pokemons Type?</h1>
+  <h1 id="pokemon">What's That Pokemons Type?</h1>
   <div class="search-section">
-    <input id="blank" type="text" placeholder="search types">
+    <img id="logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/International_Pok%C3%A9mon_logo.svg/1200px-International_Pok%C3%A9mon_logo.svg.png" alt="Pokemon loggo">
+
+    <img id="starters" src="https://archive-media-0.nyafuu.org/vp/image/1504/95/1504954897057.png" alt="Starter pokemon with from gen 1-8">
+
+    <!-- <input id="blank" type="text" placeholder="search types"> -->
     <!-- do select later -->
-    <select>
+    <select id="types">
       <!--Make it so you can see all 18 types of pokemon-->
+      <option value="normal">Normal</option>
+      <option value="fighting">Fighting</option>
+      <option value="flying">Flying</option>
+      <option value="poison">Poison</option>
+      <option value="ground">Ground</option>
+      <option value="rock">Rock</option>
+      <option value="bug">Bug</option>
+      <option value="ghost">Ghost</option>
+      <option value="steel">Steel</option>
+      <option value="fire">Fire</option>
+      <option value="water">Water</option>
+      <option value="grass">Grass</option>
+      <option value="electric">Electric</option>
+      <option value="psychic">Psychic</option>
+      <option value="ice">Ice</option>
+      <option value="dragon">Dragon</option>
+      <option value="dark">Dark</option>
+      <option value="fairy">Fairy</option>
+
     </select>
     <button id="search">Find Pokemon</button>
   </div>
