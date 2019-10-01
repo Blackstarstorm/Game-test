@@ -1,8 +1,7 @@
-## What Game Genre Are You?
+## What's that Pokemon Type.
 
-Video games are a part of citization some genres of gaming have become staples and some people are even compared to them. This Game-test will ask you some questions and score you, depending on your score that is the type of video game genre your personality most reflect and would most likely enjoy playing. 
+We currently have more that 800 Pokemon(807 officalily as of Sept 18, 2019). This app will make it so you can find Pokemon based on their types. Never agian will you forget what type a pokemon is.
 
+First I needed to find api,
 
-Since there are so many game genres we will only be using some of the the most common genres of games. Forgive us if you felt we for got you.
-
-Enjoy the test!
+Have fun and learn some more about the Pokemon you loved growing up and the newest one that joined the game.
