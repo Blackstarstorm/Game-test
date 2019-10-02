@@ -11,7 +11,7 @@ h2{
 
 body{
   text-align: center;
-  background-image: url("https://cdn.dribbble.com/users/177498/screenshots/2663048/great-ball.jpg"); 
+  background-image: url("https://external-preview.redd.it/e5zoQw-hgw-LCjdhC_4G8IAcHxex5pzda_BD_FPTcBY.png?auto=webp&s=c0b96b5ec20010a15864b8a0c9b202c119e52fe8"); 
   background-size:cover;
 } 
 
@@ -40,7 +40,6 @@ div{
   overflow: auto;
   height: 60vh;
 } 
-/* Find a way to have the pokemon list be scrollable  */
-@media screen and (max-width) {
+@media screen and (max-width: 600px) {
 
 }
