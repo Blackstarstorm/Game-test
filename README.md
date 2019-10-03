@@ -6,7 +6,7 @@ Unlike the class game from the hit Pokémon tv show. This is used more as pokemo
 
 Have fun going back through nostalgia of Pokémon, put a picture with the name. Even if your new to Pokémon please enjoy yourself
 
-1. Problem-solving approach
+1. Problem-solving approach -
 I looked back at our homeworks/class-labs we did to giving me a basic idea of how I should start off with this project, also using google gave me a better chance of soving it.
 
 2. Struggles you encountered and how you solved them -
@@ -14,9 +14,9 @@ I looked back at our homeworks/class-labs we did to giving me a basic idea of ho
 The same can be said about my post MVP which is my music   
   
 
-3. Problems you weren’t able to solve
+3. Problems you weren’t able to solve -
 It was almost the sprites and the music, but I am glad it was solved.
 
-4. Code that you are proud of
+4. Code that you are proud of -
 
 I'm most proud of my post MVP which is whenever you click on the type and click find pokemon a new song will play that goes with that type of pokemon a little treat for my fellow Pokémon fans.
