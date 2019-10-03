@@ -37,6 +37,11 @@ display: block;
  height: 100%;
  width: 100%;
 }
+button{
+  color: black;
+  background-color: red;
+  border-radius: 20px;
+}
 
 .search-section {
   text-align: center;
@@ -88,7 +93,7 @@ div#modal {
   }
 
   button{
-    background-color: red;
+    background-color: chartreuse;
     border-radius: 12px;
   }
 

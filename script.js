@@ -37,10 +37,15 @@ displayBack.addEventListener("click", function () {
 
 const getData = async () => {
   const pokeType = input.value
+  const music = input[input.selectedIndex].getAttribute("music");
   const response = await axios.get(`https://pokeapi.co/api/v2/type/${pokeType}/`)
   pokemonList = response.data.pokemon
   renderList(pokemonList)
-
+  const sound = document.querySelector("#sound"); 
+  const audio = document.querySelector("#audio"); 
+  sound.src = music;
+  audio.load();
+  audio.play();
 }
 
 button.addEventListener("click", getData)
