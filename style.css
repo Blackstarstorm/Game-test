@@ -26,7 +26,7 @@ body{
 #starters{
   display: block;
  height: 100%;
- width: 200%;
+ width: 120%;
 }
 
 div{
@@ -35,20 +35,26 @@ div{
   text-align: center;
 
 } 
+img{
+  width: 250px;
+}
 .pokemon-list{
   overflow: auto;
   height: 60vh;
 } 
 @media only screen and (max-width: 480px) {
-    #logo{
+  html{
+    background-size: cover;
+  }
+ 
+  #logo{
       width: 200px;
       padding-bottom: 20px;
     }
     #starters {
-    position: relative;
-    width:300px;
-    padding-bottom: 20px;
+    visibility: hidden;
     }
+
     body{
       background-size: cover;
     }
