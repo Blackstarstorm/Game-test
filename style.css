@@ -1,3 +1,9 @@
+audio {
+  position: absolute;
+  left: 0;
+  z-index: 1;
+}
+
 #pokemon{
   font-size: 36px; 
 }
@@ -9,10 +15,13 @@ h2{
   color:black;
 }
 
-body{
+body {
+  min-height: 100vh;
   text-align: center;
   background-image: url("https://external-preview.redd.it/e5zoQw-hgw-LCjdhC_4G8IAcHxex5pzda_BD_FPTcBY.png?auto=webp&s=c0b96b5ec20010a15864b8a0c9b202c119e52fe8"); 
   background-size:cover;
+  margin: 0;
+  font-family: 'Press Start 2P', cursive;
 } 
 
 #logo{
@@ -24,24 +33,42 @@ body{
  }
 
 #starters{
-  display: block;
+display: block;
  height: 100%;
- width: 120%;
+ width: 100%;
 }
 
-div{
-  display: inline-block;
-  width: 25%;
+.search-section {
   text-align: center;
-
+  padding-top: 75px;
 } 
-img{
+
+img {
   width: 250px;
 }
+
 .pokemon-list{
   overflow: auto;
   height: 60vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
 } 
+
+div#modal {
+  position: fixed;
+  top: 15vh;
+  left: 50%;
+  margin-left: -150px;
+  width: 300px;
+  height: 70vh; 
+  z-index: 10;
+  display: none;
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 15px;
+}
+
+
 @media only screen and (max-width: 480px) {
   html{
     background-size: cover;
@@ -51,26 +78,22 @@ img{
       width: 200px;
       padding-bottom: 20px;
     }
-    #starters {
-    visibility: hidden;
-    }
 
-    body{
-      background-size: cover;
-    }
-    .pokemon-list{
-      overflow: auto;
-      height: 30vh;
-    }
-    button{
-      background-color: red;
-      border-radius: 12px;
-    }
-    select{
-      border-style: solid;
-      background-color: gray;
-      position: relative; 
-      top: -20px;
-      left: 15px;
-    }
+  #starters {
+    display: none;
   }
+
+  body{
+    background-size: cover;
+  }
+
+  button{
+    background-color: red;
+    border-radius: 12px;
+  }
+
+  select{
+    border-style: solid;
+    background-color: gray;
+  }
+}

@@ -5,19 +5,28 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
   <script defer src="script.js"></script>
   <title>Who's That Pokémons</title>
 </head>
 
 <body>
-  <h1 id="pokemon">What's That Pokémons Type?</h1>
+  <audio controls>
+    <source
+      src="http://23.237.126.42/ost/pokemon-omega-ruby-and-alpha-sapphire-super-music-complete-nintendo-3ds/vjwoiedh/115.%20Pokemon%20Center.mp3"
+      type="audio/mpeg"></audio>
+
   <div class="search-section">
-    <img id="logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/International_Pok%C3%A9mon_logo.svg/1200px-International_Pok%C3%A9mon_logo.svg.png" alt="Pokemon loggo">
+    <h1 id="pokemon">Who's That</h1>
+    <img id="logo"
+      src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/International_Pok%C3%A9mon_logo.svg/1200px-International_Pok%C3%A9mon_logo.svg.png"
+      alt="Pokemon loggo">
 
-    <img id="starters" src="https://archive-media-0.nyafuu.org/vp/image/1504/95/1504954897057.png" alt="Starter pokemon with from gen 1-7">
+    <img id="starters" src="https://archive-media-0.nyafuu.org/vp/image/1504/95/1504954897057.png"
+      alt="Starter pokemon with from gen 1-7">
 
-    
+
     <select id="types">
       <!--Make it so you can see all 18 types of pokemon-->
       <option value="normal">Normal</option>
@@ -42,13 +51,13 @@
     </select>
     <button id="search">Find Pokémon</button>
   </div>
-  <div id="display">
-
-
+  <div id="modal">
+    <div id="display"></div>
+    <button id="displayBack">Back</button>
   </div>
-
+  <h2>Pokémon List</h2>
   <section class="pokemon-list">
-    <h2>Pokémon List</h2>
+
   </section>
 </body>
 
