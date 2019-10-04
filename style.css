@@ -51,7 +51,14 @@ button{
 img {
   width: 250px;
 }
-
+#LinkedIn{
+  height: 80px;
+  width: 80px;
+}
+#GitHub{
+  height: 80px;
+  width: 80px;
+}
 .pokemon-list{
   overflow: auto;
   height: 60vh;
