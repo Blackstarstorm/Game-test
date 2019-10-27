@@ -2,7 +2,7 @@
 
 We currently have more that 800 Pokémon(807 offically as of Sept 18, 2019). This app will make it so you can find Pokemon based on their types. Never again will you forget what type a pokemon is.
 
-Unlike the class game from the hit Pokémon tv show. This is used more as pokemon finder being able to remember a Pokemon with the push of a button and/or Play it with friends and quiz them.
+Unlike the classic game from the hit Pokémon TV show. This is used more as pokemon finder being able to remember a Pokemon with the push of a button and/or Play it with friends and quiz them.
 
 Have fun going back through nostalgia of Pokémon, put a picture with the name. Even if your new to Pokémon please enjoy yourself
 
@@ -10,7 +10,7 @@ Have fun going back through nostalgia of Pokémon, put a picture with the name. 
 I looked back at our homeworks/class-labs we did to giving me a basic idea of how I should start off with this project, also using google gave me a better chance of soving it.
 
 2. Struggles you encountered and how you solved them -
-  For me I struggled hard with getting the sprites(images) for the website I thought it would be in the types api, but it wasn't I did need the help of API guide and other people who understood APIs to help guide me. 
+  For me I struggled hard with getting the sprites(images) for the website I thought it would be in the types api sadly it wasn't. I did need the help of the API guide and other people who understood APIs to help guide me. 
 The same can be said about my post MVP which is my music   
   
 
